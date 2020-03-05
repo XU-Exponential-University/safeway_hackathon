@@ -1,0 +1,12 @@
+PODS:
+  - SFProgressCircle (1.0.6)
+
+DEPENDENCIES:
+  - SFProgressCircle (~> 1.0.6)
+
+SPEC CHECKSUMS:
+  SFProgressCircle: 645d71eb3ffc56939029afa074b5a38ed3cdfa21
+
+PODFILE CHECKSUM: e49f160666e6cc815c49a9f43d1b295026f04a56
+
+COCOAPODS: 1.2.0

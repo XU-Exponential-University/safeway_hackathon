@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5tt-TD-F4D">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="k8c-E0-HWP">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="jAf-7U-1bm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmK-wU-r5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-865" y="-22"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="KMi-nb-Fvm">
+            <objects>
+                <viewController id="5tt-TD-F4D" customClass="MapViewController" customModule="SaveEmma" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="81F-Qo-uLF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" showsBuildings="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poF-C1-eZe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIT-3j-NsD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school" translatesAutoresizingMaskIntoConstraints="NO" id="GgF-PC-nug">
+                                        <rect key="frame" x="8" y="52" width="398" height="319"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="319" id="eNf-ba-Fxe"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm there for you when you leave school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oc-xo-Pg2">
+                                        <rect key="frame" x="56" y="437.5" width="302" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5oc-xo-Pg2" firstAttribute="centerY" secondItem="mIT-3j-NsD" secondAttribute="centerY" id="3qG-Dz-bWk"/>
+                                    <constraint firstItem="GgF-PC-nug" firstAttribute="leading" secondItem="mIT-3j-NsD" secondAttribute="leading" constant="8" id="4jc-Qp-Kg8"/>
+                                    <constraint firstItem="5oc-xo-Pg2" firstAttribute="centerX" secondItem="mIT-3j-NsD" secondAttribute="centerX" id="LtN-E2-oPE"/>
+                                    <constraint firstItem="GgF-PC-nug" firstAttribute="top" secondItem="mIT-3j-NsD" secondAttribute="top" constant="52" id="WUf-Qh-EpD"/>
+                                    <constraint firstAttribute="trailing" secondItem="GgF-PC-nug" secondAttribute="trailing" constant="8" id="yjF-pG-suN"/>
+                                </constraints>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypT-RT-xhd" userLabel="alertView">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are on the wrong way" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzc-oo-EoH">
+                                        <rect key="frame" x="108.5" y="39.5" width="197" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Vzc-oo-EoH" firstAttribute="centerY" secondItem="ypT-RT-xhd" secondAttribute="centerY" id="Hso-2p-5EH"/>
+                                    <constraint firstItem="Vzc-oo-EoH" firstAttribute="centerX" secondItem="ypT-RT-xhd" secondAttribute="centerX" id="QdY-bM-cBi"/>
+                                    <constraint firstAttribute="height" constant="100" id="c20-Th-Wnr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="mIT-3j-NsD" firstAttribute="leading" secondItem="924-Ou-1ay" secondAttribute="leading" id="19S-t2-rOW"/>
+                            <constraint firstItem="mIT-3j-NsD" firstAttribute="top" secondItem="81F-Qo-uLF" secondAttribute="top" id="45Y-nq-y5T"/>
+                            <constraint firstItem="ypT-RT-xhd" firstAttribute="trailing" secondItem="924-Ou-1ay" secondAttribute="trailing" id="Epe-cA-v5E"/>
+                            <constraint firstItem="ypT-RT-xhd" firstAttribute="leading" secondItem="924-Ou-1ay" secondAttribute="leading" id="Xvq-s6-S8n"/>
+                            <constraint firstItem="poF-C1-eZe" firstAttribute="leading" secondItem="924-Ou-1ay" secondAttribute="leading" id="ZHd-2P-a2o"/>
+                            <constraint firstAttribute="bottom" secondItem="poF-C1-eZe" secondAttribute="bottom" id="drL-q5-JMk"/>
+                            <constraint firstItem="924-Ou-1ay" firstAttribute="bottom" secondItem="ypT-RT-xhd" secondAttribute="bottom" id="nJc-Df-a3q"/>
+                            <constraint firstItem="mIT-3j-NsD" firstAttribute="trailing" secondItem="924-Ou-1ay" secondAttribute="trailing" id="phl-H0-E6W"/>
+                            <constraint firstAttribute="bottom" secondItem="mIT-3j-NsD" secondAttribute="bottom" id="t7S-cS-Aqr"/>
+                            <constraint firstItem="poF-C1-eZe" firstAttribute="top" secondItem="81F-Qo-uLF" secondAttribute="top" id="v1D-Me-SDi"/>
+                            <constraint firstItem="poF-C1-eZe" firstAttribute="trailing" secondItem="924-Ou-1ay" secondAttribute="trailing" id="xhc-uW-dC5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="924-Ou-1ay"/>
+                    </view>
+                    <connections>
+                        <outlet property="alertView" destination="ypT-RT-xhd" id="n9p-w2-rL7"/>
+                        <outlet property="mapView" destination="poF-C1-eZe" id="e1E-Co-7op"/>
+                        <outlet property="restingLocationView" destination="mIT-3j-NsD" id="bXO-td-JKH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wgp-La-XUU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="-212.27678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="school" width="600" height="600"/>
+    </resources>
+</document>

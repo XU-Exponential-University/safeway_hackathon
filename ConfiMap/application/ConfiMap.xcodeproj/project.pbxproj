@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282D3E2823A0CFF000C08FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D3E2723A0CFF000C08FA2 /* AppDelegate.swift */; };
+		282D3E2A23A0CFF000C08FA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D3E2923A0CFF000C08FA2 /* SceneDelegate.swift */; };
+		282D3E2E23A0CFF300C08FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D3E2D23A0CFF300C08FA2 /* Assets.xcassets */; };
+		282D3E3123A0CFF300C08FA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D3E3023A0CFF300C08FA2 /* Preview Assets.xcassets */; };
+		282D3E3423A0CFF300C08FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282D3E3223A0CFF300C08FA2 /* LaunchScreen.storyboard */; };
+		282D3E3F23A0CFF300C08FA2 /* ConfiMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D3E3E23A0CFF300C08FA2 /* ConfiMapTests.swift */; };
+		282D3E4A23A0CFF300C08FA2 /* ConfiMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D3E4923A0CFF300C08FA2 /* ConfiMapUITests.swift */; };
+		282D3E5823A0D0B600C08FA2 /* ConfiMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D3E5723A0D0B600C08FA2 /* ConfiMapViewController.swift */; };
+		282D3E5A23A0D15700C08FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282D3E5923A0D15700C08FA2 /* Main.storyboard */; };
+		282D3E5D23A0D4EA00C08FA2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282D3E5C23A0D4EA00C08FA2 /* MapKit.framework */; };
+		282D3E5F23A0E62200C08FA2 /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D3E5E23A0E62200C08FA2 /* Annotations.swift */; };
+		6A56AF548D0875EAD7185723 /* Pods_Standard_ConfiMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCEE2427F7F42137743C241 /* Pods_Standard_ConfiMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282D3E3B23A0CFF300C08FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282D3E1C23A0CFF000C08FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282D3E2323A0CFF000C08FA2;
+			remoteInfo = ConfiMap;
+		};
+		282D3E4623A0CFF300C08FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282D3E1C23A0CFF000C08FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282D3E2323A0CFF000C08FA2;
+			remoteInfo = ConfiMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B742C7C6138732E7F6259A /* Pods-Standard-ConfiMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard-ConfiMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Standard-ConfiMap/Pods-Standard-ConfiMap.release.xcconfig"; sourceTree = "<group>"; };
+		099566AAEE3824E49CF52715 /* Pods-Standard-ConfiMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard-ConfiMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Standard-ConfiMap/Pods-Standard-ConfiMap.debug.xcconfig"; sourceTree = "<group>"; };
+		282D3E2423A0CFF000C08FA2 /* ConfiMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfiMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282D3E2723A0CFF000C08FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		282D3E2923A0CFF000C08FA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		282D3E2D23A0CFF300C08FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282D3E3023A0CFF300C08FA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		282D3E3323A0CFF300C08FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		282D3E3523A0CFF300C08FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282D3E3A23A0CFF300C08FA2 /* ConfiMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfiMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282D3E3E23A0CFF300C08FA2 /* ConfiMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiMapTests.swift; sourceTree = "<group>"; };
+		282D3E4023A0CFF300C08FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282D3E4523A0CFF300C08FA2 /* ConfiMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfiMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282D3E4923A0CFF300C08FA2 /* ConfiMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiMapUITests.swift; sourceTree = "<group>"; };
+		282D3E4B23A0CFF300C08FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282D3E5723A0D0B600C08FA2 /* ConfiMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiMapViewController.swift; sourceTree = "<group>"; };
+		282D3E5923A0D15700C08FA2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		282D3E5C23A0D4EA00C08FA2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		282D3E5E23A0E62200C08FA2 /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		DFCEE2427F7F42137743C241 /* Pods_Standard_ConfiMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Standard_ConfiMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282D3E2123A0CFF000C08FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D3E5D23A0D4EA00C08FA2 /* MapKit.framework in Frameworks */,
+				6A56AF548D0875EAD7185723 /* Pods_Standard_ConfiMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D3E3723A0CFF300C08FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D3E4223A0CFF300C08FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282D3E1B23A0CFF000C08FA2 = {
+			isa = PBXGroup;
+			children = (
+				282D3E2623A0CFF000C08FA2 /* ConfiMap */,
+				282D3E3D23A0CFF300C08FA2 /* ConfiMapTests */,
+				282D3E4823A0CFF300C08FA2 /* ConfiMapUITests */,
+				282D3E2523A0CFF000C08FA2 /* Products */,
+				282D3E5B23A0D4EA00C08FA2 /* Frameworks */,
+				5B44994FC33424C027FCDF7F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		282D3E2523A0CFF000C08FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E2423A0CFF000C08FA2 /* ConfiMap.app */,
+				282D3E3A23A0CFF300C08FA2 /* ConfiMapTests.xctest */,
+				282D3E4523A0CFF300C08FA2 /* ConfiMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282D3E2623A0CFF000C08FA2 /* ConfiMap */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E5723A0D0B600C08FA2 /* ConfiMapViewController.swift */,
+				282D3E2723A0CFF000C08FA2 /* AppDelegate.swift */,
+				282D3E2923A0CFF000C08FA2 /* SceneDelegate.swift */,
+				282D3E2D23A0CFF300C08FA2 /* Assets.xcassets */,
+				282D3E3223A0CFF300C08FA2 /* LaunchScreen.storyboard */,
+				282D3E5923A0D15700C08FA2 /* Main.storyboard */,
+				282D3E3523A0CFF300C08FA2 /* Info.plist */,
+				282D3E2F23A0CFF300C08FA2 /* Preview Content */,
+				282D3E5E23A0E62200C08FA2 /* Annotations.swift */,
+			);
+			path = ConfiMap;
+			sourceTree = "<group>";
+		};
+		282D3E2F23A0CFF300C08FA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E3023A0CFF300C08FA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		282D3E3D23A0CFF300C08FA2 /* ConfiMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E3E23A0CFF300C08FA2 /* ConfiMapTests.swift */,
+				282D3E4023A0CFF300C08FA2 /* Info.plist */,
+			);
+			path = ConfiMapTests;
+			sourceTree = "<group>";
+		};
+		282D3E4823A0CFF300C08FA2 /* ConfiMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E4923A0CFF300C08FA2 /* ConfiMapUITests.swift */,
+				282D3E4B23A0CFF300C08FA2 /* Info.plist */,
+			);
+			path = ConfiMapUITests;
+			sourceTree = "<group>";
+		};
+		282D3E5B23A0D4EA00C08FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E5C23A0D4EA00C08FA2 /* MapKit.framework */,
+				DFCEE2427F7F42137743C241 /* Pods_Standard_ConfiMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B44994FC33424C027FCDF7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				099566AAEE3824E49CF52715 /* Pods-Standard-ConfiMap.debug.xcconfig */,
+				02B742C7C6138732E7F6259A /* Pods-Standard-ConfiMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282D3E2323A0CFF000C08FA2 /* ConfiMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282D3E4E23A0CFF300C08FA2 /* Build configuration list for PBXNativeTarget "ConfiMap" */;
+			buildPhases = (
+				D1FA4AC25542E91FE896F1FD /* [CP] Check Pods Manifest.lock */,
+				282D3E2023A0CFF000C08FA2 /* Sources */,
+				282D3E2123A0CFF000C08FA2 /* Frameworks */,
+				282D3E2223A0CFF000C08FA2 /* Resources */,
+				C0E36A52013DA6078D7B71C4 /* [CP] Embed Pods Frameworks */,
+				381B0C4BACBF888F67439ABC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfiMap;
+			productName = ConfiMap;
+			productReference = 282D3E2423A0CFF000C08FA2 /* ConfiMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282D3E3923A0CFF300C08FA2 /* ConfiMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282D3E5123A0CFF300C08FA2 /* Build configuration list for PBXNativeTarget "ConfiMapTests" */;
+			buildPhases = (
+				282D3E3623A0CFF300C08FA2 /* Sources */,
+				282D3E3723A0CFF300C08FA2 /* Frameworks */,
+				282D3E3823A0CFF300C08FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282D3E3C23A0CFF300C08FA2 /* PBXTargetDependency */,
+			);
+			name = ConfiMapTests;
+			productName = ConfiMapTests;
+			productReference = 282D3E3A23A0CFF300C08FA2 /* ConfiMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		282D3E4423A0CFF300C08FA2 /* ConfiMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282D3E5423A0CFF300C08FA2 /* Build configuration list for PBXNativeTarget "ConfiMapUITests" */;
+			buildPhases = (
+				282D3E4123A0CFF300C08FA2 /* Sources */,
+				282D3E4223A0CFF300C08FA2 /* Frameworks */,
+				282D3E4323A0CFF300C08FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282D3E4723A0CFF300C08FA2 /* PBXTargetDependency */,
+			);
+			name = ConfiMapUITests;
+			productName = ConfiMapUITests;
+			productReference = 282D3E4523A0CFF300C08FA2 /* ConfiMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282D3E1C23A0CFF000C08FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Andreas Schmidt";
+				TargetAttributes = {
+					282D3E2323A0CFF000C08FA2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					282D3E3923A0CFF300C08FA2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 282D3E2323A0CFF000C08FA2;
+					};
+					282D3E4423A0CFF300C08FA2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 282D3E2323A0CFF000C08FA2;
+					};
+				};
+			};
+			buildConfigurationList = 282D3E1F23A0CFF000C08FA2 /* Build configuration list for PBXProject "ConfiMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282D3E1B23A0CFF000C08FA2;
+			productRefGroup = 282D3E2523A0CFF000C08FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282D3E2323A0CFF000C08FA2 /* ConfiMap */,
+				282D3E3923A0CFF300C08FA2 /* ConfiMapTests */,
+				282D3E4423A0CFF300C08FA2 /* ConfiMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282D3E2223A0CFF000C08FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D3E3423A0CFF300C08FA2 /* LaunchScreen.storyboard in Resources */,
+				282D3E3123A0CFF300C08FA2 /* Preview Assets.xcassets in Resources */,
+				282D3E2E23A0CFF300C08FA2 /* Assets.xcassets in Resources */,
+				282D3E5A23A0D15700C08FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D3E3823A0CFF300C08FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D3E4323A0CFF300C08FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		381B0C4BACBF888F67439ABC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Standard-ConfiMap/Pods-Standard-ConfiMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E36A52013DA6078D7B71C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Standard-ConfiMap/Pods-Standard-ConfiMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1FA4AC25542E91FE896F1FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282D3E2023A0CFF000C08FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D3E2823A0CFF000C08FA2 /* AppDelegate.swift in Sources */,
+				282D3E2A23A0CFF000C08FA2 /* SceneDelegate.swift in Sources */,
+				282D3E5823A0D0B600C08FA2 /* ConfiMapViewController.swift in Sources */,
+				282D3E5F23A0E62200C08FA2 /* Annotations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D3E3623A0CFF300C08FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D3E3F23A0CFF300C08FA2 /* ConfiMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282D3E4123A0CFF300C08FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D3E4A23A0CFF300C08FA2 /* ConfiMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282D3E3C23A0CFF300C08FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282D3E2323A0CFF000C08FA2 /* ConfiMap */;
+			targetProxy = 282D3E3B23A0CFF300C08FA2 /* PBXContainerItemProxy */;
+		};
+		282D3E4723A0CFF300C08FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282D3E2323A0CFF000C08FA2 /* ConfiMap */;
+			targetProxy = 282D3E4623A0CFF300C08FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282D3E3223A0CFF300C08FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282D3E3323A0CFF300C08FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282D3E4C23A0CFF300C08FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		282D3E4D23A0CFF300C08FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282D3E4F23A0CFF300C08FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099566AAEE3824E49CF52715 /* Pods-Standard-ConfiMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ConfiMap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ConfiMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsystems.mms.ConfiMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282D3E5023A0CFF300C08FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B742C7C6138732E7F6259A /* Pods-Standard-ConfiMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ConfiMap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ConfiMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsystems.mms.ConfiMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		282D3E5223A0CFF300C08FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfiMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsystems.mms.ConfiMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfiMap.app/ConfiMap";
+			};
+			name = Debug;
+		};
+		282D3E5323A0CFF300C08FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfiMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsystems.mms.ConfiMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfiMap.app/ConfiMap";
+			};
+			name = Release;
+		};
+		282D3E5523A0CFF300C08FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfiMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsystems.mms.ConfiMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConfiMap;
+			};
+			name = Debug;
+		};
+		282D3E5623A0CFF300C08FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfiMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsystems.mms.ConfiMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConfiMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282D3E1F23A0CFF000C08FA2 /* Build configuration list for PBXProject "ConfiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D3E4C23A0CFF300C08FA2 /* Debug */,
+				282D3E4D23A0CFF300C08FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282D3E4E23A0CFF300C08FA2 /* Build configuration list for PBXNativeTarget "ConfiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D3E4F23A0CFF300C08FA2 /* Debug */,
+				282D3E5023A0CFF300C08FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282D3E5123A0CFF300C08FA2 /* Build configuration list for PBXNativeTarget "ConfiMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D3E5223A0CFF300C08FA2 /* Debug */,
+				282D3E5323A0CFF300C08FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282D3E5423A0CFF300C08FA2 /* Build configuration list for PBXNativeTarget "ConfiMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282D3E5523A0CFF300C08FA2 /* Debug */,
+				282D3E5623A0CFF300C08FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282D3E1C23A0CFF000C08FA2 /* Project object */;
+}
